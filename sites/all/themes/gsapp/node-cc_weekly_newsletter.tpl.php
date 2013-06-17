@@ -132,12 +132,12 @@ $output_html = '<div id="newsletter-output">' .
 		htmlentities('<table class="main-content" cellpadding="0" cellspacing="0" width="705" style="margin-left: auto; margin-right: auto;">') .
 		htmlentities('<tr valign="top"><td>') . $br . 
 		htmlentities('<table cellpadding="0" cellspacing="0" width="705" style="font-family: Georgia;font-size: 18px;">
-<tr valign="top"><td><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_header.png" width="705" height="228" alt="CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" /><br/><br/></td></tr>
+<tr valign="top"><td><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_header.png" width="705" height="228" alt="CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" /><br/><br/></td></tr>
 <tr><td align="center" style="height: 20px;">&nbsp;</td>
 </tr><tr valign="top"><td align="left" style="font-family: Georgia;">') . $intro2 .
 		htmlentities('</td></tr><tr><td align="center" style="height: 20px;">&nbsp;</td></tr></table>') .
 		htmlentities('<table cellpadding="5" cellspacing="10" width="705" style="font-family: Georgia;background:#0089ff; color:white; padding:20px 0; margin-top:20px;">') .
-		htmlentities('<tr valign="top"><td colspan="2" align="center"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_eventsThisWeek.png" alt="EVENTS THIS WEEK FROM THE CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:5px;"/>' . '</td></tr>') .
+		htmlentities('<tr valign="top"><td colspan="2" align="center"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_eventsThisWeek.png" alt="EVENTS THIS WEEK FROM THE CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:5px;"/>' . '</td></tr>') .
 		htmlentities('<tr><td colspan="2" align="center">&nbsp;</td></tr>');
 
 $output_non_html = '<div id="newsletter-output-non">' . 
@@ -146,21 +146,21 @@ $output_non_html = '<div id="newsletter-output-non">' .
 		'<table class="main-content" cellpadding="0" cellspacing="0" width="705" style="margin-left: auto; margin-right: auto;">' .
 		'<tr valign="top"><td><br/>' .
 		'<table cellpadding="0" cellspacing="0" width="705" style="font-family: Georgia;font-size: 18px;"><tr valign="top"><td>' . 
-		'<img src="http://www.gsapp-is.org/CC/cloud/110918/110917_header.png" width="705" height="228" alt="CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" /><br/><br/></td></tr>' . 
+		'<img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_header.png" width="705" height="228" alt="CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" /><br/><br/></td></tr>' . 
 		'<tr><td align="center" style="height: 20px;">&nbsp;</td>' . 
 		'</tr><tr valign="top"><td align="left" style="font-family: Georgia;">' . 
 		$intro_non .
 		'</td></tr><tr><td align="center" style="height:20px;">&nbsp;</td></tr></table>' . 
 		'<table cellpadding="5" cellspacing="10" width="705" style="font-family: Georgia;background:#0089ff; color:white; padding:20px 0; margin-top:20px;">'.
-		'<tr valign="top"><td colspan="2" align="center"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_eventsThisWeek.png" alt="EVENTS THIS WEEK FROM THE CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:5px;"/>' . '</td></tr>' .
+		'<tr valign="top"><td colspan="2" align="center"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_eventsThisWeek.png" alt="EVENTS THIS WEEK FROM THE CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:5px;"/>' . '</td></tr>' .
 		'<tr><td colspan="2" align="center">&nbsp;</td></tr>';
 		
 
 		// events
 		foreach($event_data as $evt) {
-			$output_html .= htmlentities('<tr><td valign="top" width="120" align="center"><a href="' . $evt['moreinfo'] . '" target="_blank"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_moreInfo.png" width="101" height="32" alt="MORE INFO" title="Find out more" style="border: none;" /></a><br/><br/>') .
+			$output_html .= htmlentities('<tr><td valign="top" width="120" align="center"><a href="' . $evt['moreinfo'] . '" target="_blank"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_moreInfo.png" width="101" height="32" alt="MORE INFO" title="Find out more" style="border: none;" /></a><br/><br/>') .
 			htmlentities('<a href="' . $evt['gcal'] . '" target="_blank">' . 
-			'<img src="http://www.gsapp-is.org/CC/cloud/110918/110917_addToCal.png" width="101" height="32" alt="ADD THIS EVENT TO YOUR CALENDAR" title="Add to Calendar" style="border: none;"/></a><br/></td>') . 
+			'<img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_addToCal.png" width="101" height="32" alt="ADD THIS EVENT TO YOUR CALENDAR" title="Add to Calendar" style="border: none;"/></a><br/></td>') . 
 			htmlentities('<td valign="top" align="left" width="350" style="color: #ffffff; font-size: 16px; padding-right:20px;"><p style="font-size: 9px; color: #000000; font-weight: bold; padding-top: 0; margin-top: 0;">') . strtoupper($evt['city']) . 
 			htmlentities('</p><p style="color: #ffffff;">') . 
 			$evt['title'] . htmlentities('<br/><br/>') .
@@ -170,9 +170,9 @@ $output_non_html = '<div id="newsletter-output-non">' .
 			htmlentities($evt['description']) .
 			htmlentities('</p></td></tr>');
 			
-			$output_non_html .= '<tr><td valign="top" width="120" align="center"><a href="' . $evt['moreinfo'] . '" target="_blank"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_moreInfo.png" width="101" height="32" alt="MORE INFO" title="Find out more" style="border: none;" /></a><br/><br/>' .
+			$output_non_html .= '<tr><td valign="top" width="120" align="center"><a href="' . $evt['moreinfo'] . '" target="_blank"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_moreInfo.png" width="101" height="32" alt="MORE INFO" title="Find out more" style="border: none;" /></a><br/><br/>' .
 			'<a href="' . $evt['gcal'] . '" target="_blank">' . 
-			'<img src="http://www.gsapp-is.org/CC/cloud/110918/110917_addToCal.png" width="101" height="32" alt="ADD THIS EVENT TO YOUR CALENDAR" title="Add to Calendar" style="border: none;"/></a><br/></td>' . 
+			'<img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_addToCal.png" width="101" height="32" alt="ADD THIS EVENT TO YOUR CALENDAR" title="Add to Calendar" style="border: none;"/></a><br/></td>' . 
 			'<td valign="top" align="left" width="350" style="color: #ffffff; font-size: 16px; padding-right:20px;"><p style="font-size: 9px; color: #000000; font-weight: bold; padding-top: 0; margin-top: 0;">' . strtoupper($evt['city']) . 
 			'</p><p style="color: #ffffff;">' . 
 			$evt['title'] . '<br/><br/>' .
@@ -186,9 +186,9 @@ $output_non_html = '<div id="newsletter-output-non">' .
 		$output_html .= htmlentities('</table><!-- end events -->');
 
 		// past highlights
-		$output_html .= htmlentities('<table cellpadding="0" cellspacing="10" width="705" style="margin-top: 20px; font-size: 18px;"><tr valign="top" align="center"><td colspan="3"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_highlights_bg.png"  alt="HIGHLIGHTS FROM LAST WEEK &ndash; CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:25px;" width="414" height="92" /><br/></td></tr><tr valign="top">');
+		$output_html .= htmlentities('<table cellpadding="0" cellspacing="10" width="705" style="margin-top: 20px; font-size: 18px;"><tr valign="top" align="center"><td colspan="3"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_highlights_bg.png"  alt="HIGHLIGHTS FROM LAST WEEK &ndash; CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:25px;" width="414" height="92" /><br/></td></tr><tr valign="top">');
 		
-		$output_non_html .='<table cellpadding="0" cellspacing="10" width="705" style="margin-top: 20px; font-size: 18px;"><tr valign="top" align="center"><td colspan="3"><img src="http://www.gsapp-is.org/CC/cloud/110918/110917_highlights_bg.png"  alt="HIGHLIGHTS FROM LAST WEEK &ndash; CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:25px;" width="414" height="92" /><br/></td></tr><tr valign="top">';
+		$output_non_html .='<table cellpadding="0" cellspacing="10" width="705" style="margin-top: 20px; font-size: 18px;"><tr valign="top" align="center"><td colspan="3"><img src="http://www.columbia.edu/cu/arch/mailchimp/ccgsapp/110917_highlights_bg.png"  alt="HIGHLIGHTS FROM LAST WEEK &ndash; CC: NEWSLETTTER &ndash; A GLOBAL REPORT FROM THE COLUMBIA UNIVERSITY GRADUATE SCHOOL OF ARCHITECTURE, PLANNING AND PRESERVATION" style="display:inline-block;margin-left:15px;margin-bottom:25px;" width="414" height="92" /><br/></td></tr><tr valign="top">';
 		
 		foreach($highlight_data as $hlt) {
 		
