@@ -1,0 +1,25 @@
+{
+    "name": "CC:GSAPP A Global Report from the Columbia University Graduate School of Architecture, Planning and Preservation",
+    "url": "ccgsapp.org",
+    "version": "1.0",
+    "thumbnail": "screenshot.png",
+    "contributors": [
+        {
+            "name": "Troy Conrad Therrien",
+            "username": "troyth",
+            "role": "maintainer"
+        },
+        {
+            "name": "Jochen Hartmann",
+            "username": "vomc",
+            "role": "maintainer"
+        },
+        {
+            "name": "Dan Taeyoung Lee",
+            "username": "provolot",
+            "role": "maintainer"
+        }
+    ],
+    "dependencies": [
+    ]
+}
